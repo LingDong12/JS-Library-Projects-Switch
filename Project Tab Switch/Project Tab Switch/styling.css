@@ -1,0 +1,106 @@
+body{
+    background-color: #ebe6e6;
+    padding: 0;
+    margin: 0; 
+}
+/* Top display */
+header{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 100px;
+    font-weight: 300;
+}
+main ul{
+    text-align: center;
+    list-style: none;
+    padding: 30px;
+    
+}
+main ul li {
+    text-align: center;
+    display: inline;
+    margin: 30px;
+    font-size: 30px;
+}
+main ul li:active,
+main ul li:hover {
+    color: white;
+    background-color: rgb(78, 73, 73);
+    border-radius: 30px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 40px;
+}
+
+
+
+/* card container */
+
+
+.cards{
+    display: none;
+}
+#JS{
+    display: block;
+}
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    margin: 10px;
+    background-color: beige;
+    width: 350px;
+    height: 300x;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+     transition: 0.3s;
+    
+
+}
+
+/* card edit */
+
+img {
+    width: 350px; 
+    height: 200px;
+    border-style: none;
+    margin: 0;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    
+
+}
+.card:hover {
+   cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.8);
+    
+}
+.card h3{
+    text-align: center;
+    padding-bottom:30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
+
+.links{
+    display: grid;
+    gap: 10px;
+    margin: 30px;
+    
+}
+button{
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+
+}
+a:hover{
+    font-size: 30px;
+}
